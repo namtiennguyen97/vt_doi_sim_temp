@@ -1,11 +1,5 @@
-@media (max-width: 767px){
-    .lookup-order__row{
-        margin: 0 0 15px;
-    }
-    .lookup-order__btn__web{
-        display:none
-    }
-}
+
+
 .look-up-padding-top-20{
     padding-top: 20px
 }
@@ -73,4 +67,129 @@
 .look-up-total-cost{
     display: flex;
     justify-content: space-between;
+}
+
+/*MOBILE LOOK-UP*/
+.sub--look-up{
+    display: none;
+}
+@media (max-width: 767px){
+    .lookup-order__row{
+        margin: 0 0 15px;
+    }
+    .lookup-order__btn__web{
+        display:none
+    }
+    .pathway{
+        display: none;
+    }
+    .main{
+        display: none;
+    }
+    /*//cho mobile hien thi*/
+    .sub--look-up{
+        display: block;
+    }
+}
+
+.sub--look-up{
+    padding: 0 16px 0 16px;
+}
+.sub-look-up-title{
+    text-align: center;
+}
+.sub--look-up-title{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: 'FS PFBeauSansPro', sans-serif;
+    color: #44494D;
+}
+.sub--look-up-complete{
+    font-size: 16px;
+    color: #58B84F;
+    line-height: 24px;
+    font-family: 'FS PFBeauSansPro', sans-serif;
+}
+.sub-look-up--info{
+    margin-top: 16px;
+    background-color: #fff;
+    border: 1px solid #d1d1d1;
+    border-radius: 8px 8px 8px 0;
+    -webkit-box-flex: 0;
+    width: calc(100%);
+}
+.sub-look-up--info--title span{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #44494D;
+    font-family: 'FS PFBeauSansPro', sans-serif;
+    float: left;
+}
+
+.sub-look-up--info-2{
+    margin-top: 16px;
+    background-color: #fff;
+    border: 1px solid #d1d1d1;
+    border-radius: 8px 8px 0 0;
+    -webkit-box-flex: 0;
+    width: calc(100%);
+}
+
+.sub-look-up--info--title{
+    padding-bottom: 4px;
+}
+.sub-look-up--info--detail{
+
+}
+.sub-look-up--info--detail--ul{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.sub-look-up--info--detail--ul i{
+    padding: 0 10px 0 0;
+    max-width: 100%;
+}
+.sub-look-up--info--content{
+    padding: 20px 16px;
+}
+.sub-look-up-location{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #727272
+}
+.padding--top-16{
+    padding-top: 16px;
+}
+.padding--top-8{
+    padding-top: 8px
+}
+.sub-look-up-total-cost-fee{
+    border-radius: 0 0 8px 0;
+    border: 1px solid #d1d1d1;
+    align-items: center;
+    text-align: center;
+}
+.sub-look-up-total-cost-fee .sub-look-up-des-title{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'FS PFBeauSansPro', sans-serif;
+    color: #44494D;
+}
+.sub-look-up-total-cost-fee .sub-look-up-fee{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    font-family: 'FS PFBeauSansPro', sans-serif;
+    color: #EE0033;
+}
+.sub-fee-content{
+    padding: 5px 0 12px 0;
 }
