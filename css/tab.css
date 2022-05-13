@@ -1,0 +1,182 @@
+.tabcontent {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  display: none;
+}
+
+.tabcontent.active {
+	display: block;
+}
+
+.popup-modal-dismiss {
+	color: #576C8A;
+	opacity: 1;
+}
+
+.white-popup-block {
+  width: 773px;
+  margin: 0 auto;
+  position: relative;
+  max-width: 100%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 15px;
+}
+
+.msg-sentphone {
+	width: 792px;
+}
+
+form.box-regis-form {
+  width: 540px;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.msg-sentphone .box-regis-form {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.msg-success {
+	width: 550px;
+}
+
+.select-pay {
+	width: 1130px;
+}
+
+.package-pay {
+  width: 650px;
+}
+
+.popup-login {
+  width: 615px;
+}
+
+.modal h2 {
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Montserrat';
+  color: #0C0033;
+}
+
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none;
+    max-width: 100%;
+    background: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.modal.open {
+    display: inline-block;
+}
+
+.modal > a.close-modal {
+  display: none;
+}
+
+.modal-close {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-decoration: none;
+    text-align: center;
+    opacity: 1;
+    padding: 0 0 18px 10px;
+    color: #576C8A;
+    font-style: normal;
+    font-size: 28px;
+    font-family: Arial, Baskerville, monospace;
+}
+
+.jquery-modal.blocker.current {
+  z-index: 1001;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, .7);
+}
+
+/* Customize the label (the container) */
+.checkbox {
+  display: block;
+  position: relative;
+  padding-left: 36px;
+  padding-top: 7px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkbox .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 24px;
+  width: 24px;
+  background-color: #fff;
+  border: 2px solid #E7E7E7;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.11);
+  border-radius: 6px;
+}
+
+/* On mouse-over, add a grey background color */
+
+/* When the checkbox is checked, add a blue background */
+.checkbox input:checked ~ .checkmark {
+  background-color: #EE0033;
+  border-color: #EE0033;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkbox .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox .checkmark:after {
+  left: 7px;
+  top: 3px;
+  width: 4px;
+  height: 9px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

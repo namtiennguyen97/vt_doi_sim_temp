@@ -1,0 +1,76 @@
+@media (max-width: 767px){
+    .lookup-order__row{
+        margin: 0 0 15px;
+    }
+    .lookup-order__btn__web{
+        display:none
+    }
+}
+.look-up-padding-top-20{
+    padding-top: 20px
+}
+.lookup-order__des_normal{
+    font-family: 'Roboto' ,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #44494D;
+    line-height: 24px;
+    margin: 10px auto;
+    max-width: 450px;
+    text-align: center;
+    width: 100%;
+}
+.lookup--btn--cancel{
+    width: 100%;
+    margin-top: 28px;
+}
+@media (max-width: 575px) {
+    .lookup-order__des_normal {
+        max-width: 100%;
+    }
+}
+.lookup-basic__content .lookup-basic__top{
+    border-bottom: 1px solid #eee;
+    padding: 0 0 12px 0;
+}
+.lookup__padding-top-2{
+    padding-top: 2px;
+}
+.look-up__info{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    border-bottom: 4px solid #eee;
+    color: #44494D;
+}
+.look-up__result{
+    font-weight: 700;
+    font-family: 'FS PFBeauSansPro', sans-serif;
+    line-height: 27px;
+    font-size: 18px;
+    color: #44494D;
+}
+.look-up-detail--zone{
+    padding-top: 15px;
+}
+.look-up-total-fee{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 30px;
+    color: #EE0033;
+}
+.look-up-total-cost--title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    font-family: 'FS PFBeauSansPro', sans-serif;
+    color: #44494D;
+    flex-grow: 1;
+}
+.look-up-padding-top-29{
+    padding-top: 29px;
+}
+.look-up-total-cost{
+    display: flex;
+    justify-content: space-between;
+}
