@@ -80,6 +80,8 @@
     .lookup-order__btn__web{
         display:none
     }
+}
+@media (max-width: 991px){
     .pathway{
         display: none;
     }
