@@ -1,4 +1,9 @@
-
+/*.look-up--select{*/
+/*    font-weight: 700;*/
+/*    line-height: 19px;*/
+/*    font-size: 14px;*/
+/*    color: #727272;*/
+/*}*/
 
 .look-up-padding-top-20{
     padding-top: 20px
@@ -82,10 +87,10 @@
     }
 }
 @media (max-width: 991px){
-    .pathway{
+    .main-look-up-detail .pathway{
         display: none;
     }
-    .main{
+    .main-look-up-detail{
         display: none;
     }
     /*//cho mobile hien thi*/
@@ -194,4 +199,8 @@
 }
 .sub-fee-content{
     padding: 5px 0 12px 0;
+}
+.lookup--sub-btn--cancel{
+    width: 100%;
+    margin-top: 16px;
 }
